@@ -12,12 +12,24 @@ function home() {
                  alt="Amazon banner"
                />
                <div className="home__row">
-                   <Product />
-                   
+                   <Product 
+                     title='The lean startup' 
+                     price={29.99} 
+                     image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg/>"
+                     rating={5} 
+                   />
+                   <Product
+                      title='The making of a Man'
+                      price={30.00}
+                      rating= {3}
+
+                   />
+
                </div>
                <div className="home__row">
-                   {/* Product */}
-                   {/* Product */}
+                   <Product></Product>
+                   <Product></Product>
+                   <Product></Product>
                    {/* Product */}
                </div>
                <div className="home__row">
@@ -26,7 +38,7 @@ function home() {
 
            </div>
         </div>
-    )
+    );
 }
 
-export default home
+export default home;
