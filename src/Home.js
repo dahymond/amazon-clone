@@ -12,11 +12,12 @@ function home() {
                  alt="Amazon banner"
                />
                <div className="home__row">
-                   <Product 
-                     title='The lean startup' 
-                     price={29.99} 
+                   <Product
+                     id="24280358"
+                     title='The lean startup'
+                     price={29.99}
                      image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-                     rating={5} 
+                     rating={5}
                    />
                    <Product
                       id="49538094"
@@ -30,13 +31,13 @@ function home() {
                </div>
                <div className="home__row">
                    <Product
-                      id="49538094"
+                      id="49536094"
                       title= "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
                       price={199.99}
                       rating= {3}
                       image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
                     />
-                   <Product 
+                   <Product
                       id="49538097"
                       title= "Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
                       price={98.99}
@@ -49,9 +50,9 @@ function home() {
                       price={598.99}
                       rating= {4}
                       image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
-                   
+
                    />
-    
+
                </div>
                <div className="home__row">
                    <Product
